@@ -5,6 +5,7 @@
 **Projekt bloku:** Zbudowanie prostego pipeline'u ETL w Pythonie, który pobiera dane z różnych źródeł (np. pliki CSV, API), transformuje je przy użyciu Pandas i ładuje do Azure SQL Database. Automatyzacja uruchamiania skryptu.
 
 ---
+---
 
 ### Tydzień 1
 
@@ -26,12 +27,13 @@ Stworzenie skryptu w Pythonie, który wczytuje dane z pliku CSV, wykonuje proste
 | 4       | 4          | [Azure SQL Database: Tworzenie i zarządzanie bazą danych](https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview) | [Wprowadzenie do biblioteki Pandas: Series i DataFrame, wczytywanie danych z CSV](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html) | [Jak dokumentować schematy baz danych w Notion lub Draw.io](https://app.diagrams.net/)                                 | [Kurs Pandas na Kaggle (darmowy)](https://www.kaggle.com/learn/pandas)                                                  | Czytanie dokumentacji Pandas po angielsku | [ ]        |
 | 5       | 5          | [Podstawy bezpieczeństwa w Azure: Role-Based Access Control (RBAC)](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview) | [Podstawowe operacje na DataFrame w Pandas: selekcja, filtrowanie, sortowanie](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html) | [Jak prowadzić dziennik postępów w Notion z refleksjami (Metoda STAR)](https://www.notion.so/help/guides/weekly-agenda) | [Budowanie pierwszego prostego skryptu ETL (Extract-Transform-Load) w Pythonie z Pandas](https://www.youtube.com/watch?v=-br4F0s9fOY) | Podsumowanie tygodnia i planowanie po angielsku | [ ]        |
 
----
+
 
 **Podsumowanie tygodnia:**
 Najważniejsza nowa umiejętność:
 *   Zrozumienie podstawowych usług Azure Storage i SQL Database oraz umiejętność wczytywania i prostego manipulowania danymi w Pythonie przy użyciu biblioteki Pandas.
 
+---
 ---
 
 ### Tydzień 2
@@ -54,14 +56,13 @@ Rozbudowa skryptu ETL z poprzedniego tygodnia: dane są pobierane z publicznego 
 | 9       | 4          | [ADF: Podstawowe transformacje danych w przepływach danych (Mapping Data Flows)](https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-overview) | [Podstawy logowania w Pythonie: biblioteka `logging`, konfiguracja loggera](https://docs.python.org/3/howto/logging.html)                    | [Jak skonfigurować logowanie do pliku i na konsolę](https://realpython.com/python-logging/)                             | [Zaimplementuj logowanie zdarzeń (start, stop, błędy) w swoich skryptach ETL](https://docs.python.org/3/library/logging.handlers.html#rotatingfilehandler) | Czytanie blogów o Data Engineering po angielsku | [ ]        |
 | 10      | 5          | [ADF: Wyzwalacze (Triggers) – planowanie i uruchamianie pipeline'ów na żądanie](https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipeline-execution-triggers) | [Pisanie funkcji i modułów w Pythonie: organizacja kodu, reużywalność](https://docs.python.org/3/tutorial/modules.html)                   | [Jak tworzyć moduły Pythona i używać ich w innych skryptach](https://realpython.com/python-modules-packages/)            | [Zrefaktoryzuj swoje dotychczasowe skrypty, wydzielając powtarzalne fragmenty do funkcji i modułów](https://www.youtube.com/watch?v=CqvZ3vGoGs0) | Podsumowanie tygodnia i planowanie po angielsku | [ ]        |
 
----
+
 
 **Podsumowanie tygodnia:**
 Najważniejsza nowa umiejętność:
 *   Zrozumienie działania Azure Data Factory do orkiestracji zadań ETL oraz umiejętność pobierania i przetwarzania danych z API w Pythonie z obsługą błędów i logowaniem.
 
 ---
-
 ---
 
 
@@ -85,12 +86,13 @@ Stworzenie sparametryzowanego pipeline'u w Azure Data Factory, który przetwarza
 | 14      | 4          | [ADF: Wywoływanie skryptów Pythona (np. przez Azure Batch lub Custom Activity)](https://learn.microsoft.com/en-us/azure/data-factory/transform-data-using-python)        | [Konfiguracja i używanie środowisk wirtualnych (`venv`) dla projektów Pythona](https://docs.python.org/3/library/venv.html)              | [Zarządzanie zależnościami w Pythonie za pomocą `requirements.txt`](https://pip.pypa.io/en/stable/cli/pip_freeze/)        | [Stwórz nowy projekt Pythona z własnym środowiskiem wirtualnym i plikiem `requirements.txt`](https://www.youtube.com/watch?v=KXVCP6L4gC8) | Czytanie o "virtual environments" | [ ]        |
 | 15      | 5          | [ADF: Monitorowanie i zarządzanie uruchomieniami pipeline'ów](https://learn.microsoft.com/en-us/azure/data-factory/monitor-visually)                                  | [Refaktoryzacja kodu Pythona: poprawa czytelności, wydajności, eliminacja powtórzeń](https://refactoring.guru/refactoring/what-is-refactoring) | [Narzędzia do statycznej analizy kodu Python (np. Pylint, Flake8)](https://realpython.com/python-linters-code-quality/) | [Użyj Pylint lub Flake8 do analizy swoich dotychczasowych skryptów i popraw zidentyfikowane problemy](https://pylint.pycqa.org/en/latest/tutorial.html) | Podsumowanie tygodnia i planowanie po angielsku | [ ]        |
 
----
+
 
 **Podsumowanie tygodnia:**
 Najważniejsza nowa umiejętność:
 *   Umiejętność budowania sparametryzowanych i sterowanych dynamicznie pipeline'ów w Azure Data Factory oraz organizowania kodu Pythona w reużywalne moduły.
 
+---
 ---
 
 ### Tydzień 4
@@ -113,12 +115,13 @@ Stworzenie skryptu Pythona, który wykorzystuje bibliotekę `pyodbc` (lub wprowa
 | 19      | 4          | [Azure SQL Database: Import i eksport danych (np. BACPAC, narzędzia)](https://learn.microsoft.com/en-us/azure/azure-sql/database/database-export)           | [Wykonywanie zapytań SELECT z SQLAlchemy ORM, filtrowanie, sortowanie](https://docs.sqlalchemy.org/en/14/orm/query.html)                     | [Jak tworzyć migracje schematu bazy danych (np. z Alembic dla SQLAlchemy)](https://alembic.sqlalchemy.org/en/latest/tutorial.html) | [Zaimplementuj migrację schematu dla swojego modelu SQLAlchemy przy użyciu Alembic](https://testdriven.io/blog/fastapi-alembic/) | Czytanie o "ORM benefits" po angielsku    | [ ]        |
 | 20      | 5          | [Azure SQL Database: Monitorowanie wydajności (Query Performance Insight)](https://learn.microsoft.com/en-us/azure/azure-sql/database/query-performance-insight-use) | [Praktyczne zastosowanie SQLAlchemy ORM w projekcie: operacje CRUD na modelu](https://www.learndatasci.com/tutorials/using-databases-python-sqlalchemy/) | [Jak dokumentować modele danych i relacje w Notion/Draw.io](https://app.diagrams.net/)                              | [Rozbuduj swój skrypt z `pyodbc` o dodatkowe funkcje lub przepisz go używając SQLAlchemy](https://www.youtube.com/watch?v=woKYyhLCcnU) | Podsumowanie tygodnia i planowanie po angielsku | [ ]        |
 
----
+
 
 **Podsumowanie tygodnia:**
 Najważniejsza nowa umiejętność:
 *   Efektywna praca z Azure SQL Database z poziomu Pythona, w tym wykonywanie operacji CRUD i zrozumienie podstaw ORM z SQLAlchemy.
 
+---
 ---
 
 ### Tydzień 5
@@ -141,12 +144,13 @@ Zabezpieczenie dostępu do Azure SQL Database przy użyciu Azure Active Director
 | 24      | 4          | [Role-Based Access Control (RBAC) w Azure: Przypisywanie ról, niestandardowe role (wprowadzenie)](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview) | [Git i GitHub: Praca z gałęziami (branching, merging)](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)   | [Model przepływu pracy Gitflow (wprowadzenie)](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) | [Stwórz nową gałąź na GitHub, wprowadź zmiany i zrób pull request do gałęzi głównej](https://www.youtube.com/watch?v=RGOj5yH7evk) | Czytanie o "git branching strategies"       | [ ]        |
 | 25      | 5          | [Azure Policy: Wymuszanie standardów i zgodności (wprowadzenie)](https://learn.microsoft.com/en-us/azure/governance/policy/overview)                                 | [Git i GitHub: Pull Requests, code review (podstawy)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) | [Jak przeprowadzać efektywne code review](https://google.github.io/eng-practices/review/reviewer/)                       | [Przejrzyj pull request innego projektu open-source lub poproś kogoś o review Twojego kodu](https://www.conventionalcommits.org/en/v1.0.0/) | Podsumowanie tygodnia i planowanie po angielsku | [ ]        |
 
----
+
 
 **Podsumowanie tygodnia:**
 Najważniejsza nowa umiejętność:
 *   Zrozumienie podstawowych koncepcji bezpieczeństwa w Azure oraz umiejętność pisania testów jednostkowych w Pythonie i efektywnej pracy z systemem kontroli wersji Git.
 
+---
 ---
 
 ### Tydzień 6
@@ -169,10 +173,10 @@ Zintegrowanie Azure Monitor z istniejącą aplikacją/skryptem Pythona w celu zb
 | 29      | 4          | [Application Insights (dla aplikacji): Wprowadzenie, integracja z Pythonem (opcjonalnie)](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) | [Pisanie dokumentacji kodu Pythona: docstringi, narzędzia (np. Sphinx - wprowadzenie)](https://www.python.org/dev/peps/pep-0257/)         | [Standardy pisania docstringów (Google, NumPy, reStructuredText)](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format) | [Dodaj docstringi do wszystkich funkcji i modułów w swoim projekcie](https://www.youtube.com/watch?v=1i_nC4e9y1Y)          | Czytanie o "application monitoring" po angielsku | [ ]        |
 | 30      | 5          | [Dashboardy w Azure Portal: Wizualizacja metryk i logów](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards)           | [Refaktoryzacja skryptu Pythona na podstawie wyników profilowania i zasad czystego kodu](https://refactoring.guru/catalog)              | [Przykłady refaktoryzacji w Pythonie](https://github.com/rasbt/python_reference/blob/master/refactoring/refactoring_examples.ipynb) | [Wybierz jeden ze swoich skryptów i przeprowadź jego pełną refaktoryzację](https://www.youtube.com/watch?v=DZyWN76C_c0)    | Podsumowanie tygodnia i planowanie po angielsku | [ ]        |
 
----
 
 **Podsumowanie tygodnia:**
 Najważniejsza nowa umiejętność:
 *   Monitorowanie zasobów Azure przy użyciu Azure Monitor i Log Analytics oraz umiejętność optymalizacji i refaktoryzacji kodu Pythona zgodnie z dobrymi praktykami.
 
+---
 ---
